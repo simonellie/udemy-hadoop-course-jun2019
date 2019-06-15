@@ -1,3 +1,3 @@
-# udemy-hadoop-course-jun2019
+# Udemy Hadoop Course - June 2019
 
 Repository for Hadoop course from Udemy.
