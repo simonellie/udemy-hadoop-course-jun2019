@@ -7,7 +7,7 @@ We can use sample pig run, ore pig run with Tez (so much faster).
 
 ## Pig commands
 
-Watch https://www.udemy.com/the-ultimate-hands-on-hadoop-tame-your-big-data/learn/lecture/5963070#questions for more informations about the following commands.
+Watch lecture of this course from 19 to 23 for more informations about the following commands.
 What we can do with relations:
  - **LOAD STORE DUMP**
  - **FILTER DISTINCT FOREACH/GENERATE MAPREDUCE STREAM SAMPLE**
