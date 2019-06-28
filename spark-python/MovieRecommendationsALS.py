@@ -6,7 +6,7 @@ from pyspark.sql.functions import lit
 # Load up movie ID -> movie name dictionary
 def loadMovieNames():
     movieNames = {}
-    with open("ml-100k/u.item") as f:
+    with open("data/u.item") as f:
         for line in f:
             fields = line.split('|')
             movieNames[int(fields[0])] = fields[1].decode('ascii', 'ignore')
