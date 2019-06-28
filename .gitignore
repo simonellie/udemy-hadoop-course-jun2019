@@ -4,3 +4,8 @@
 .idea/vcs.xml
 .idea/workspace.xml
 udemy-hadoop-course-jun2019.iml
+venv
+/*.iml
+/.idea
+target
+/testspark/testspark.iml
