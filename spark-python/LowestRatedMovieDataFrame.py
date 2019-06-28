@@ -22,7 +22,7 @@ if __name__ == "__main__":
     movieNames = loadMovieNames()
 
     # Get the raw data
-    lines = spark.sparkContext.textFile("hdfs:///user/maria_dev/ml-100k/u.data")
+    lines = spark.sparkContext.textFile("hdfs:///user/maria_dev/data/u.data")
     # Convert it to a RDD of Row objects with (movieID, rating)
     movies = lines.map(parseInput)
     # Convert that to a DataFrame

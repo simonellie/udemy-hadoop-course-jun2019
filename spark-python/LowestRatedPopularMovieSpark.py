@@ -27,7 +27,7 @@ if __name__ == "__main__":
     movieNames = loadMovieNames()
 
     # Load up the raw u.data file
-    lines = sc.textFile("hdfs:///user/maria_dev/ml-100k/u.data")
+    lines = sc.textFile("hdfs:///user/maria_dev/data/u.data")
 
     # Convert to (movieID, (rating, 1.0))
     movieRatings = lines.map(parseInput)
